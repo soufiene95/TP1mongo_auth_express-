@@ -32,8 +32,8 @@
                             <td>{{ user.username }}</td>
                             <td>{{ user.email }}</td>
                             <td>
-                                <a href="/user/edit/{{ user._id }}" class="btn btn-warning">Modifier</a>
-                                <a href="/user/delete/{{ user._id }}" class="btn btn-danger">Supprimer</a>
+                                <a href="/edit/{{ user._id }}" class="btn btn-warning">Modifier</a>
+                                <a href="/delete/{{ user._id }}" class="btn btn-danger">Supprimer</a>
                             </td>
                         </tr>
                     {% endfor %}
